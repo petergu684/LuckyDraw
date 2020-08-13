@@ -17,8 +17,7 @@ def start_button_callback():
 
 
 # Callback function of update button
-    # Used to update database file
-
+# Used to update database file
 def update_button_callback():
     # Update database
     data["unsafe"].remove(name)
@@ -35,7 +34,7 @@ def update_button_callback():
     lbl.configure(text="Database updated!")
     btn_update.config(state="disabled")
 
-
+# Update the label text to a new name every 10ms
 def update_label():
     global name
     # Random pick an index
