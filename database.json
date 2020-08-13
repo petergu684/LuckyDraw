@@ -1,0 +1,18 @@
+{
+    "safe": [
+        "Mike",
+		"Tom",
+		"Peter"
+    ],
+    "unsafe": [
+        "Danny",
+		"Alice",
+		"Ben",
+		"Tim",
+		"Bill",
+		"Alex",
+		"Sam",
+		"John",
+		"Eric"
+    ]
+}
